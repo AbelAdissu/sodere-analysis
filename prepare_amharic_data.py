@@ -155,3 +155,127 @@ def translate_dolly_15k_jsonl(input_file, output_destination, checkpoint_format_
     outputs is expected to be a list of dictionaries, where each dictionary represents a JSON object with the translated text
 
     '''
+def translate_non_code_snippets_and_stitch_back(text, translate_client):
+
+    '''
+    text: The string that potentially contains both code and non-code segments.
+    translate_client: An instance of a translation client, which is used to perform translations.
+    
+    '''
+
+    error_suspicious = False
+    if not ('```' in text or '`' in text):
+        return do_cloud_translation(translate_client, text), len(text), error_suspicious
+
+    '''
+    The first if statement checks if the text contains specific delimiters for code (``` or `).
+    If neither of these delimiters is found in the text, this suggests that the entire text is non-code. In this case, the function:
+        Translates the entire text using do_cloud_translation.
+        Returns the translated text, the length of the original text, and a flag (error_suspicious) set to False indicating no issues with code delimiters in the text.
+            
+    '''
+
+
+    '''
+    Triple Backticks (```): This delimiter is typically used to create blocks of code in Markdown and other text formats. It's used to start and end a block where the enclosed text is treated distinctly from the rest of the document
+    Single Backtick (`): This delimiter is used for inline code in Markdown. It marks a shorter section of text, often just a word or a line
+      
+    '''
+
+
+    delimiters = ['```', '`']  # Prefer longer delimiter
+    delimiters.sort(key=len, reverse=True)  # Sorting delimiters by length in descending order
+
+    translated_length = 0
+
+    # first, split the text into code snippets and non-code snippets
+    non_code_snippets = []
+    code_snippets = []
+    code_delimiters = []
+
+
+    '''
+    Prepare Delimiters:
+        delimiters = ['```', '']`: This creates a list of strings representing code delimiters, which are used to identify blocks of code within the text.
+        delimiters.sort(key=len, reverse=True): This sorts the delimiters by length in descending order. Sorting by length ensures that the function checks for longer delimiters first. This is important because if both types of delimiters are present, the longer one (```) typically denotes a multi-line code block which might contain the shorter one ( `) as part of the code.
+    
+    3. Initialize Variables for Splitting Text:
+        translated_length = 0: Initializes a counter to keep track of the length of text that has been translated. This is useful for monitoring how much text has been processed and can be important for applications with limits on the amount of text that can be translated.
+        non_code_snippets = []: Initializes a list to store segments of the text that do not contain code and need to be translated.
+        code_snippets = []: Initializes a list to store segments of the text that are identified as code. These segments will not be translated to preserve the syntax and functionality of the code.
+        code_delimiters = []: Initializes a list to store the delimiters that were used to identify each code snippet. This is necessary for later reconstructing the original text structure accurately after translation of non-code parts.
+            
+    '''
+
+
+
+    while len(text) > 0:
+
+        '''
+        
+        Initialize Search Variables:
+
+            next_code_snippet_start: Initialized to the length of the remaining text, this variable will store the position where the next code snippet starts.
+            next_delimiter: This will hold the delimiter that identifies the start of the next code snippet.
+            Find the Next Code Snippet:
+
+        The code searches for the next occurrence of any delimiter (``` or `` ).
+        If a delimiter is found and it appears before any previously found snippet start (next_code_snippet_start), update next_code_snippet_start and next_delimiter to the new values.
+                
+        
+        
+        '''
+        # find the next code snippet
+        next_code_snippet_start = len(text)
+        next_delimiter = None
+        for delimiter in delimiters:
+            temp_start = text.find(delimiter)
+            if temp_start != -1 and temp_start < next_code_snippet_start:
+                next_code_snippet_start = temp_start
+                next_delimiter = delimiter
+
+        if next_delimiter is None:
+            # no more code snippets
+            non_code_snippets.append(text)
+            text = ''
+
+        '''
+        No Delimiter Found (next_delimiter is None):
+            If no further delimiters are found, it means the rest of the text does not contain any code snippets.
+            Append the entire remaining text to non_code_snippets and clear text to exit the loop.
+                    
+        '''
+        else:
+            # there is a code snippet
+            non_code_snippets.append(text[:next_code_snippet_start])
+            text = text[next_code_snippet_start + len(next_delimiter):]
+            next_code_snippet_end = text.find(next_delimiter)
+            if next_code_snippet_end == -1:
+                # there is no closing code snippet, treat the rest as code
+                code_snippets.append(text)
+                code_delimiters.append(next_delimiter)
+                text = ''
+                error_suspicious = True
+            else:
+                code_snippets.append(text[:next_code_snippet_end])
+                code_delimiters.append(next_delimiter)
+                text = text[next_code_snippet_end + len(next_delimiter):]
+
+            
+        
+            
+
+    # now, translate the non-code snippets
+    translated_non_code_snippets = []
+    for non_code_snippet in non_code_snippets:
+        translated_non_code_snippets.append(do_cloud_translation(translate_client, non_code_snippet))
+        translated_length += len(non_code_snippet)
+
+    # now, stitch the non-code snippets and code snippets back together
+    translated_text = ''
+    for i, non_code_snippet in enumerate(translated_non_code_snippets):
+        translated_text += non_code_snippet
+        if i < len(code_snippets):
+            translated_text += code_delimiters[i] + code_snippets[i] + code_delimiters[i]
+
+    return translated_text, translated_length, error_suspicious
