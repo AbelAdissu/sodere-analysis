@@ -155,6 +155,16 @@ def translate_dolly_15k_jsonl(input_file, output_destination, checkpoint_format_
     outputs is expected to be a list of dictionaries, where each dictionary represents a JSON object with the translated text
 
     '''
+
+
+
+'''
+The function translate_non_code_snippets_and_
+stitch_back is designed to handle text that may contain embedded code snippets, 
+ensuring that only the non-code portions of the text are translated.
+
+'''
+
 def translate_non_code_snippets_and_stitch_back(text, translate_client):
 
     '''
@@ -279,3 +289,120 @@ def translate_non_code_snippets_and_stitch_back(text, translate_client):
             translated_text += code_delimiters[i] + code_snippets[i] + code_delimiters[i]
 
     return translated_text, translated_length, error_suspicious
+
+def translate_parquet_file(parquet_file_path, output_destination, checkpoint_format_path, checkpoint_frequency=500):
+
+    '''
+    Parameters:
+        parquet_file_path: The file path to the input Parquet file containing data to be translated.
+        output_destination: The file path where the translated JSON data will be saved.
+        checkpoint_format_path: A string pattern to define file paths for saving periodic checkpoints of the translation progress.
+        checkpoint_frequency: Frequency of saving checkpoints in terms of number of rows processed.
+            
+    '''
+
+
+    outputs = []
+    translate_client = translate.Client()
+
+    characters_translated = 0
+    i = 0
+    data = pd.read_parquet(parquet_file_path, engine='pyarrow')
+
+    '''
+    outputs = [] : This list is intended to store the results of the translation process 
+    characters_translated : This counter will track the number of characters that have been translated during the operation.
+    i = 0 :- This is typically used to keep track of the number of iterations, rows processed
+    data = pd.read_parquet(parquet_file_path, engine='pyarrow') : Uses the pandas library’s read_parquet function to load data from a Parquet file specified by parquet_file_path.
+
+    '''
+    
+
+    for index, row in data.iterrows():
+
+        # issue happened during translation at 45k, start at 45k
+        # if i <= 45000:
+        #    i += 1
+        #    continue
+        #abf = input(row)
+
+        assert characters_translated < 37000000
+
+        prompt = row['prompt']
+        chosen = row['chosen']
+
+        # prompt begins with Human: and ends with Assistant: 
+        if prompt.startswith('Human: '):
+            prompt = prompt[7:]
+        if prompt.endswith(' Assistant:'):
+            prompt = prompt[:-11]
+
+
+        '''
+        for index, row in data.iterrows(): iterates through each row in the DataFrame data, which contains the content of the Parquet file loaded earlier. 
+        index is the row index, and row contains the data in each row.
+        assert characters_translated < 37000000: assert characters_translated < 37000000 ensures the total count of translated characters does not exceed 37 million, likely a limitation or quota of the translation API being used.
+        prompt = row['prompt']: Retrieves the 'prompt' value from the current row of the DataFrame.
+        chosen = row['chosen']: Similarly retrieves the 'chosen' value, which could represent a selected response 
+        '''
+
+        '''
+        if prompt.startswith('Human: '):: Checks if the prompt string begins with the substring "Human: ". This is often used to indicate that the text following is spoken or written by a human in a conversational dataset.
+            prompt = prompt[7:]: If the condition is true, it removes the first seven characters ("Human: ") from the prompt. This is done by slicing the string from the 7th character to the end, effectively removing the "Human: " part. The number 7 corresponds to the length of "Human: ".
+        if prompt.endswith(' Assistant:'):: Checks if the prompt string ends with " Assistant:". This might be used to signify that the following text is expected to be a response from an assistant in a dialog dataset.
+            prompt = prompt[:-11]: If true, it removes the last eleven characters (" Assistant:") from the prompt. This is achieved by slicing the string up to the 11th character from the end, excluding " Assistant:". The number 11 is derived from the length of " Assistant:".
+            
+        '''
+
+
+        translated_json = {}
+        translated_json['prompt'], c_t_prompt, err_p = translate_non_code_snippets_and_stitch_back(prompt, translate_client)
+        translated_json['chosen'], c_t_chosen, err_c = translate_non_code_snippets_and_stitch_back(chosen, translate_client)
+        translated_json['reference_index'] = index
+        translated_json['error_suspicion'] = err_p or err_c
+
+        characters_translated += c_t_prompt
+        characters_translated += c_t_chosen
+
+        outputs.append(translated_json)
+
+        '''
+        translated_json = {}: Creates an empty dictionary to store results related to the current row of data being processed. 
+        translated_json['prompt'], c_t_prompt, err_p = translate_non_code_snippets_and_stitch_back(prompt, translate_client): This line calls the translate_non_code_snippets_and_stitch_back function with the prompt text and the translation client. The function is expected to return the translated text, the number of characters translated (c_t_prompt), and a flag indicating if there was any suspicious issue (err_p) during translation.
+        translated_json['chosen'], c_t_chosen, err_c = translate_non_code_snippets_and_stitch_back(chosen, translate_client): Similar to the previous call but for the chosen text. It also returns the translated text, count of translated characters, and an error flag.
+                
+        
+        '''
+
+        scratch_file_path = 'scratch.txt'
+        with open(scratch_file_path, 'w', encoding='utf-8') as f:
+            f.write("Initial {}\n New {}".format({'prompt': row['prompt'], 'chosen': row['chosen']}, translated_json))
+        #abf = input('set {}'.format(characters_translated))
+        print('Translated {} lines and {} chars so far'.format(i, characters_translated))
+        time.sleep(1)
+
+        if i % checkpoint_frequency == 0:
+            print("Checkpoint: {}".format(i))
+            print('Characters translated: {}'.format(characters_translated))
+            checkpoint_path = checkpoint_format_path.format(i)
+            with open(checkpoint_path, 'w', encoding='utf-8') as f:
+                json.dump(outputs, f, ensure_ascii=False, indent=4)
+        
+        i += 1
+
+    with open(output_destination, 'w', encoding='utf-8') as f:
+        # dump output list into one json 
+        json.dump(outputs, f, ensure_ascii=False, indent=4)
+
+alpaca_src = ''
+alpaca_dest = ''
+alpaca_checkpoint = ''
+
+dolly_src = ''
+dolly_dest = ''
+dolly_checkpoint = ''
+
+translate_parquet_file(alpaca_src, alpaca_dest, alpaca_checkpoint)
+translate_dolly_15k_jsonl(dolly_src, dolly_dest, dolly_checkpoint)
+
+
