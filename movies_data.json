@@ -1,0 +1,912 @@
+[
+    {
+        "cover": "movie_posters\\photo_2024-06-14_22-12-11 (1).jpg",
+        "title": "Blockers",
+        "rating": "6.2",
+        "genre": "Comedy,  Drama, Romance",
+        "release": "2018",
+        "duration": "102",
+        "language": "English",
+        "description": "Three parents try to stop their daughters from losing their virginity on prom night."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-14_22-09-52 (1).jpg",
+        "title": "Life Is Beautiful",
+        "rating": "8.6",
+        "genre": "Comedy,  Drama,  Romance,  War,",
+        "release": "1997",
+        "duration": "116",
+        "language": "Italian,  German,  English,",
+        "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-13_12-43-41 (1).jpg",
+        "title": "Good Luck Chuck",
+        "rating": "5.6",
+        "genre": "Comedy,  Romance,",
+        "release": "2007",
+        "duration": "101",
+        "language": "English",
+        "description": "In order to keep the woman of his dreams from falling for another guy, Charlie Logan has to break the curse that has made him wildly popular with single women"
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-08_20-10-22 (1).jpg",
+        "title": "My Big Fat Greek Wedding 2",
+        "rating": "6.0",
+        "genre": "Comedy,  Romance,",
+        "release": "2016",
+        "duration": "94",
+        "language": "English,  Greek,",
+        "description": "A Portokalos family secret brings the beloved characters back together for an even bigger and Greeker wedding."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-08_20-06-54 (1).jpg",
+        "title": "My Big Fat Greek Wedding",
+        "rating": "6.6",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2002",
+        "duration": "95",
+        "language": "English,  Greek,",
+        "description": "A young Greek woman falls in love with a non-Greek and struggles to get her family to accept him while she comes to terms with her heritage and cultural identity."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-08_17-24-34 (1).jpg",
+        "title": "The Man in the Moon",
+        "rating": "7.3",
+        "genre": "Drama,  Romance,",
+        "release": "1991",
+        "duration": "99",
+        "language": "English",
+        "description": "A coming of age story set in the south of the U.S. when Elvis was King."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-06_13-39-51 (1).jpg",
+        "title": "Home Again",
+        "rating": "5.8",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2017",
+        "duration": "97",
+        "language": "English",
+        "description": "Life for a single mom in Los Angeles takes an unexpected turn when she allows three young guys to move in with her."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-05_12-37-06 (1).jpg",
+        "title": "Ali and Nino",
+        "rating": "6.8",
+        "genre": "Drama,  Romance,  War,",
+        "release": "2016",
+        "duration": "100",
+        "language": "English,  Azerbaijani,  Russian,",
+        "description": "Love story of a Muslim Azerbaijani boy and Christian Georgian girl in Baku from 1918 to 1920."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-05_12-36-21 (1).jpg",
+        "title": "The Reader",
+        "rating": "7.6",
+        "genre": "Drama,  Mystery,  Romance,",
+        "release": "2008",
+        "duration": "124",
+        "language": "English,  German,  Greek,  Latin,",
+        "description": "Post-WWII Germany"
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-05_06-55-38 (1).jpg",
+        "title": "To All the Boys",
+        "rating": "6.1",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2020",
+        "duration": "101",
+        "language": "English",
+        "description": "Lara Jean and Peter have just taken their relationship from pretend to officially official when another recipient of one of her old love letters enters the picture."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-02_19-58-03 (1).jpg",
+        "title": "The Other Woman",
+        "rating": "6.0",
+        "genre": "Comedy,  Romance,",
+        "release": "2014",
+        "duration": "109",
+        "language": "English",
+        "description": "After discovering that her boyfriend is married, Carly meets the wife he's been betraying; when yet another affair is discovered, all three women team up to plot revenge on the three-timing S.O.B."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-02_18-49-48 (1).jpg",
+        "title": "New York, I Love You",
+        "rating": "6.2",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2008",
+        "duration": "103",
+        "language": "English,  French,  Cantonese,  Yiddish,",
+        "description": "Eleven love stories set in one of the most loved and hated cities of the world, New York City."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-06-02_16-37-48 (1).jpg",
+        "title": "Romeo + Juliet",
+        "rating": "6.7",
+        "genre": "Drama,  Romance,",
+        "release": "1996",
+        "duration": "120",
+        "language": "English",
+        "description": "Shakespeare's famous play is updated to the hip modern suburb of Verona still retaining its original dialogue."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-29_21-27-22 (1).jpg",
+        "title": "The Back-up Plan",
+        "rating": "5.3",
+        "genre": "Comedy,  Romance,",
+        "release": "2010",
+        "duration": "104",
+        "language": "English",
+        "description": "A woman conceives twins through artificial insemination, then meets the man of her dreams on the very same day."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-29_21-19-17 (1).jpg",
+        "title": "Leap Year",
+        "rating": "6.4",
+        "genre": "Comedy,  Romance,",
+        "release": "2010",
+        "duration": "100",
+        "language": "English,  Ukrainian,",
+        "description": "Anna Brady plans to travel to Dublin, Ireland to propose to her boyfriend Jeremy on February 29, leap day, because, according to Irish tradition, a man who receives a marriage proposal on a leap day must accept it."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-29_18-15-41 (1).jpg",
+        "title": "This Is 40",
+        "rating": "6.2",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2012",
+        "duration": "134",
+        "language": "English",
+        "description": "Pete and Debbie are both about to turn 40, their kids hate each other, both of their businesses are failing, they're on the verge of losing their house, and their relationship is threatening to fall apart."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-27_22-39-45 (1).jpg",
+        "title": "Mamma Mia!",
+        "rating": "6.5",
+        "genre": "Comedy,  Musical,  Romance,",
+        "release": "2008",
+        "duration": "108",
+        "language": "English,  Greek,",
+        "description": "The story of a bride-to-be trying to find her real father told using hit songs by the popular 1970s group ABBA."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-27_22-26-51 (1).jpg",
+        "title": "No Strings Attached",
+        "rating": "6.2",
+        "genre": "Comedy,  Romance,",
+        "release": "2011",
+        "duration": "108",
+        "language": "English,  Ukrainian,",
+        "description": "A guy and girl try to keep their relationship strictly physical, but it's not long before they learn that they want something more."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-27_22-25-02 (1).jpg",
+        "title": "Begin Again",
+        "rating": "7.4",
+        "genre": "Comedy,  Drama,  Music,  Romance,",
+        "release": "2013",
+        "duration": "104",
+        "language": "English",
+        "description": "A chance encounter between a down-and-out music business executive, and a young singer songwriter new to Manhattan, turns into a promising collaboration between the two talents."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-24_19-01-10 (1).jpg",
+        "title": "Love Actually",
+        "rating": "7.6",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2003",
+        "duration": "135",
+        "language": "English",
+        "description": "Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-22_19-02-39 (1).jpg",
+        "title": "Holidate",
+        "rating": "6.1",
+        "genre": "Comedy,  Romance,",
+        "release": "2020",
+        "duration": "104",
+        "language": "English,",
+        "description": "Fed up with being single on holidays, two strangers agree to be each other's platonic plus-ones all year long, only to catch real feelings along the way."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-20_23-30-26 (1).jpg",
+        "title": "Match Point",
+        "rating": "7.6",
+        "genre": "Drama,  Romance,  Thriller,",
+        "release": "2005",
+        "duration": "124",
+        "language": "English",
+        "description": "At a turning point in his life, a former tennis pro falls for an actress who happens to be dating his friend and soon-to-be brother-in-law."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-20_08-41-07 (1).jpg",
+        "title": "Morning Glory",
+        "rating": "6.5",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2010",
+        "duration": "107",
+        "language": "English,",
+        "description": "An upstart television producer accepts the challenge of reviving a struggling morning show program with warring co-hosts."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-20_08-36-22 (1).jpg",
+        "title": "Serena",
+        "rating": "5.4",
+        "genre": "Drama,  History,  Romance,",
+        "release": "2014",
+        "duration": "109",
+        "language": "English",
+        "description": "In Depression-era North Carolina, the future of George Pemberton's timber empire becomes complicated when he marries Serena."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-15_21-17-32 (1).jpg",
+        "title": "Hitch",
+        "rating": "6.6",
+        "genre": "Comedy,  Romance,",
+        "release": "2005",
+        "duration": "118",
+        "language": "English .",
+        "description": "A smooth-talking man falls for a hardened columnist while helping a shy accountant woo a beautiful heiress."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-14_12-39-23 (1).jpg",
+        "title": "Rebecca",
+        "rating": "6.0",
+        "genre": "Drama,  Mystery,  Romance,  Thriller,",
+        "release": "2020",
+        "duration": "123",
+        "language": "English",
+        "description": "A young newlywed arrives at her husband's imposing family estate on a windswept English coast and finds herself battling the shadow of his first wife, Rebecca, whose legacy lives on in the house long after her death."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-13_15-43-08 (1).jpg",
+        "title": "Maid in Manhattan",
+        "rating": "5.4",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2002",
+        "duration": "105",
+        "language": "English,  French,  Spanish,",
+        "description": "A Senatorial candidate falls for a hotel maid, thinking she is a socialite, when he sees her trying on a wealthy woman's dress."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-09_19-55-41 (1).jpg",
+        "title": "Shakespeare in Love",
+        "rating": "7.1",
+        "genre": "Comedy,  Drama,  History,  Romance,",
+        "release": "1998",
+        "duration": "123",
+        "language": "English",
+        "description": "The world's greatest ever playwright, William Shakespeare, is young, out of ideas and short of cash, but meets his ideal woman and is inspired to write one of his most famous plays."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-09_19-42-24 (1).jpg",
+        "title": "The English Patient",
+        "rating": "7.4",
+        "genre": "Drama,  Romance,  War,",
+        "release": "1996",
+        "duration": "162",
+        "language": "English,  German,  Italian,  Arabic,",
+        "description": "At the close of World War II, a young nurse tends to a badly burned plane crash victim. His past is shown in flashbacks, revealing an involvement in a fateful love affair."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-09_18-28-08 (1).jpg",
+        "title": "The Shape of Water",
+        "rating": "7.3",
+        "genre": "Drama,  Fantasy,  Romance,",
+        "release": "2017",
+        "duration": "123",
+        "language": "English,  American Sign Language,  Russian,  French,",
+        "description": "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-08_20-02-53 (1).jpg",
+        "title": "She's the Man",
+        "rating": "6.4",
+        "genre": "Comedy,  Romance,  Sport,",
+        "release": "2006",
+        "duration": "105",
+        "language": "English,  French,",
+        "description": "When her brother decides to ditch for a couple weeks, Viola heads over to his elite boarding school, disguised as him, and proceeds to fall for his school's star soccer player, and soon learns she's not the only one with romantic troubles."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-07_15-26-46 (1).jpg",
+        "title": "Mean Girls",
+        "rating": "7.1",
+        "genre": "Comedy . Romance",
+        "release": "2004",
+        "duration": "97",
+        "language": "English",
+        "description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-04_18-21-14 (1).jpg",
+        "title": "Focus",
+        "rating": "6.6",
+        "genre": "Comedy,  Crime,  Drama,  Romance,",
+        "release": "2015",
+        "duration": "105",
+        "language": "English,  Spanish,",
+        "description": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-02_17-28-14 (1).jpg",
+        "title": "The Terminal",
+        "rating": "7.4",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2004",
+        "duration": "128",
+        "language": "English,  Bulgarian,  Spanish,  Russian,  Mandarin,  German,  French,",
+        "description": "An Eastern European tourist unexpectedly finds himself stranded in JFK airport, and must take up temporary residence there."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-05-02_06-31-09 (1).jpg",
+        "title": "Clueless",
+        "rating": "6.9",
+        "genre": "Comedy,  Romance,",
+        "release": "1995",
+        "duration": "97",
+        "language": "English,  Spanish,",
+        "description": "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-30_12-49-20 (1).jpg",
+        "title": "The Wedding Ringer",
+        "rating": "6.6",
+        "genre": "Comedy,  Romance,",
+        "release": "2015",
+        "duration": "101",
+        "language": "English,  Spanish,  Ukrainian,",
+        "description": "Two weeks shy of his wedding, a socially awkward guy enters into a charade by hiring the owner of a company that provides best men for grooms in need."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-27_23-48-21 (1).jpg",
+        "title": "Aloha",
+        "rating": "5.4",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2015",
+        "duration": "105",
+        "language": "English,  Hawaiian,  Russian,",
+        "description": "A celebrated military contractor returns to the site of his greatest career triumphs and reconnects with a long-ago love while unexpectedly falling for the hard-charging Air Force watchdog assigned to him."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-27_22-40-43 (1).jpg",
+        "title": "Forrest Gump",
+        "rating": "8.8",
+        "genre": "Drama,  Romance,",
+        "release": "1994",
+        "duration": "142",
+        "language": "English",
+        "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-27_09-43-15 (1).jpg",
+        "title": "Forgetting Sarah Marshall",
+        "rating": "7.1",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2008",
+        "duration": "111",
+        "language": "English",
+        "description": "Devastated Peter takes a Hawaiian vacation in order to deal with the recent break-up with his TV star girlfriend, Sarah. Little does he know, Sarah's traveling to the same resort as her ex - and she's bringing along her new boyfriend."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-25_23-44-24 (1).jpg",
+        "title": "The Words",
+        "rating": "7.0",
+        "genre": "Drama,  Mystery,  Romance,  Thriller,",
+        "release": "2012",
+        "duration": "102",
+        "language": "English,  French,",
+        "description": "A writer at the peak of his literary success discovers the steep price he must pay for stealing another man's work."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-25_23-16-15 (1).jpg",
+        "title": "Love Don't Cost a Thing",
+        "rating": "5.2",
+        "genre": "Comedy,  Romance,  Drama,",
+        "release": "2003",
+        "duration": "100",
+        "language": "English",
+        "description": "A high school loser pays a cheerleader to pose as his girlfriend so he can be considered cool."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-25_22-57-50 (1).jpg",
+        "title": "Tristan + Isolde",
+        "rating": "6.8",
+        "genre": "Action,  Drama,  Romance,  War,",
+        "release": "2006",
+        "duration": "125",
+        "language": "English,  Irish,",
+        "description": "An affair between the second in line to Britain's throne and the princess of the feuding Irish spells doom for the young lovers."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-23_22-53-44 (1).jpg",
+        "title": "The Royal Treatment",
+        "rating": "5.2",
+        "genre": "Comedy,  Family,  Romance,",
+        "release": "2022",
+        "duration": "96",
+        "language": "English",
+        "description": "New York hairdresser Izzy seizes the chance to work at the wedding of a charming prince, but when sparks between them fly, will love or duty prevail?"
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-22_21-34-46 (1).jpg",
+        "title": "A Star Is Born",
+        "rating": "7.6",
+        "genre": "Drama,  Music,  Romance,",
+        "release": "2018",
+        "duration": "136",
+        "language": "English,  French,",
+        "description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-22_21-27-44 (1).jpg",
+        "title": "Life in a Year",
+        "rating": "6.2",
+        "genre": "Drama,  Romance,",
+        "release": "2020",
+        "duration": "107",
+        "language": "English",
+        "description": "The movie follows 17-year-old Daryn who finds out that his girlfriend is dying. He sets out to give her an entire life in the last year she has left."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-22_21-18-40 (1).jpg",
+        "title": "Easy A",
+        "rating": "7.0",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2010",
+        "duration": "92",
+        "language": "English",
+        "description": "A clean-cut high school student relies on the school's rumor mill to advance her social and financial standing."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-20_23-09-29 (1).jpg",
+        "title": "I Want You Back",
+        "rating": "6.5",
+        "genre": "Comedy,  Romance,",
+        "release": "2022",
+        "duration": "116",
+        "language": "English",
+        "description": "Newly-dumped thirtysomethings Peter and Emma team up to sabotage their exes' new relationships and win them back for good."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-18_19-19-53 (1).jpg",
+        "title": "How to Be Single",
+        "rating": "6.1",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2016",
+        "duration": "110",
+        "language": "English",
+        "description": "A group of young adults navigate love and relationships in New York City."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-18_19-17-35 (1).jpg",
+        "title": "Love, Rosie",
+        "rating": "7.1",
+        "genre": "Comedy,  Romance,",
+        "release": "2014",
+        "duration": "102",
+        "language": "English",
+        "description": "Rosie and Alex have been best friends since they were 5, so they couldn't possibly be right for one another...or could they? When it comes to love, life and making the right choices, these two are their own worst enemies."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-16_09-05-10 (1).jpg",
+        "title": "Just Go with It",
+        "rating": "6.4",
+        "genre": "Comedy,  Romance,",
+        "release": "2011",
+        "duration": "117",
+        "language": "English",
+        "description": "On a weekend trip to Hawaii, a plastic surgeon convinces his loyal assistant to pose as his soon-to-be-divorced wife in order to cover up a careless lie he told to his much-younger girlfriend."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-16_07-19-32 (1).jpg",
+        "title": "Knocked Up",
+        "rating": "6.9",
+        "genre": "Comedy,  Romance,",
+        "release": "2007",
+        "duration": "129",
+        "language": "English",
+        "description": "For fun-loving party animal Ben Stone, the last thing he ever expected was for his one-night stand to show up on his doorstep eight weeks later to tell him she's pregnant with his child."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-12_21-40-39 (1).jpg",
+        "title": "Love Again",
+        "rating": "5.9",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2023",
+        "duration": "104",
+        "language": "English",
+        "description": "A young woman tries to ease the pain of her fiancé's death by sending romantic texts to his old cell phone number, and forms a connection with the man the number has been reassigned to."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-12_05-49-03 (1).jpg",
+        "title": "The Curious Case of Benjamin Button",
+        "rating": "7.8",
+        "genre": "Drama,  Fantasy,  Romance,",
+        "release": "2008",
+        "duration": "166",
+        "language": "English,  Russian,  French,",
+        "description": "Tells the story of Benjamin Button, a man who starts aging backwards with consequences."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-11_04-42-25 (1).jpg",
+        "title": "If I Stay",
+        "rating": "6.7",
+        "genre": "Drama,  Fantasy,  Music,  Romance,  Sci-Fi,",
+        "release": "2014",
+        "duration": "107",
+        "language": "English",
+        "description": "Life changes in an instant for young Mia Hall after a car accident puts her in a coma. During an out-of-body experience, she must decide whether to wake up and live a life far different than she had imagined. The choice is hers if she can go on."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-11_04-36-26 (1).jpg",
+        "title": "Midnight Sun",
+        "rating": "6.6",
+        "genre": "Drama,  Romance,",
+        "release": "2018",
+        "duration": "91",
+        "language": "English",
+        "description": "A 17-year-old girl suffers from a condition that prevents her from being out in the sunlight."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-10_03-47-51 (1).jpg",
+        "title": "50 First Dates",
+        "rating": "6.8",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2004",
+        "duration": "99",
+        "language": "English",
+        "description": "Henry Roth is a man afraid of commitment until he meets the beautiful Lucy. They hit it off and Henry think he's finally found the girl of his dreams until discovering she has short-term memory loss and forgets him the next day."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-10_03-44-06 (1).jpg",
+        "title": "The Perfect Date",
+        "rating": "5.8",
+        "genre": "Comedy,  Romance,",
+        "release": "2019",
+        "duration": "89",
+        "language": "English",
+        "description": "To save up for college, Brooks Rattigan creates an app where anyone can pay him to play the perfect stand-in boyfriend for any occasion."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-10_03-43-36 (1).jpg",
+        "title": "Midnight in Paris",
+        "rating": "7.6",
+        "genre": "Comedy,  Fantasy,  Romance,",
+        "release": "2011",
+        "duration": "94",
+        "language": "English,  French,  Spanish,  German,",
+        "description": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-04_02-18-49 (1).jpg",
+        "title": "Your Place or Mine",
+        "rating": "5.7",
+        "genre": "Comedy,  Romance,",
+        "release": "2023",
+        "duration": "109",
+        "language": "English",
+        "description": "Two long-distance best friends change each other's lives when she decides to pursue a lifelong dream and he volunteers to keep an eye on her teenage son."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-03_00-07-57 (1).jpg",
+        "title": "Crazy, Stupid, Love.",
+        "rating": "7.4",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2011",
+        "duration": "118",
+        "language": "English",
+        "description": "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-02_23-40-43 (1).jpg",
+        "title": "10 Things I Hate About You",
+        "rating": "7.3",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "1999",
+        "duration": "97",
+        "language": "English,  French,",
+        "description": "A high-school boy, Cameron, cannot date Bianca until her anti-social older sister, Kat, has a boyfriend. So, Cameron pays a mysterious boy, Patrick, to charm Kat."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-01_21-08-33 (1).jpg",
+        "title": "500 Days of Summer",
+        "rating": "7.7",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2009",
+        "duration": "95",
+        "language": "English,  French,  Swedish,",
+        "description": "After being dumped by the girl he believes to be his soulmate, hopeless romantic Tom Hansen reflects on their relationship to try and figure out where things went wrong and how he can win her back."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-01_02-41-39 (1).jpg",
+        "title": "When We First Met",
+        "rating": "6.4",
+        "genre": "Comedy,  Fantasy,  Romance,",
+        "release": "2018",
+        "duration": "97",
+        "language": "English,  Mandarin,",
+        "description": "Noah meets Avery at a Halloween party and falls in love but gets friend-zoned. 3 years later, she's engaged to someone else. Noah returns in a time machine to fix things."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-04-01_02-19-02 (1).jpg",
+        "title": "La La Land",
+        "rating": "8.0",
+        "genre": "Comedy,  Drama,  Music,  Musical,  Romance,",
+        "release": "2016",
+        "duration": "128",
+        "language": "English,  Cantonese,",
+        "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-30_23-13-52 (1).jpg",
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "rating": "8.3",
+        "genre": "Drama,  Romance,  Sci-Fi,",
+        "release": "2004",
+        "duration": "108",
+        "language": "English",
+        "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories for ever."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-30_23-02-20 (1).jpg",
+        "title": "Good Will Hunting",
+        "rating": "8.3",
+        "genre": "Drama,  Romance,",
+        "release": "1997",
+        "duration": "126",
+        "language": "English",
+        "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-29_21-19-45 (1).jpg",
+        "title": "Love Don't Cost a Thing",
+        "rating": "5.2",
+        "genre": "Comedy,  Romance,  Drama,",
+        "release": "2003",
+        "duration": "100",
+        "language": "English",
+        "description": "A high school loser pays a cheerleader to pose as his girlfriend so he can be considered cool."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-28_22-56-43 (1).jpg",
+        "title": "The Proposal",
+        "rating": "6.7",
+        "genre": "Comedy,  Drama,  Romance,",
+        "release": "2009",
+        "duration": "108",
+        "language": "English",
+        "description": "A pushy boss forces her young assistant to marry her in order to keep her visa status in the U.S. and avoid deportation to Canada."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-27_14-56-23 (1).jpg",
+        "title": "Meet Joe Black",
+        "rating": "7.2",
+        "genre": "Drama,  Fantasy,  Romance,",
+        "release": "1998",
+        "duration": "178",
+        "language": "English,",
+        "description": "Death, who takes the form of a young man killed in an accident, asks a media mogul to act as his guide to teach him about life on Earth and, in the process, he falls in love with the mogul's daughter."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-26_16-54-22 (1).jpg",
+        "title": "Friends with Benefits",
+        "rating": "6.5",
+        "genre": "Comedy,  Romance,",
+        "release": "2011",
+        "duration": "109",
+        "language": "English",
+        "description": "A young man and woman decide to take their friendship to the next level without becoming a couple, but soon discover that adding sex only leads to complications."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-26_16-52-55 (1).jpg",
+        "title": "What If",
+        "rating": "6.8",
+        "genre": "Comedy,  Romance,",
+        "release": "2013",
+        "duration": "98",
+        "language": "English",
+        "description": "Wallace, who is burned out from a string of failed relationships, forms an instant bond with Chantry, who lives with her longtime boyfriend. Together, they puzzle out what it means if your best friend is also the love of your life."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-25_20-33-58 (1).jpg",
+        "title": "Just Married",
+        "rating": "5.5",
+        "genre": "Comedy,  Romance,",
+        "release": "2003",
+        "duration": "95",
+        "language": "English,",
+        "description": "A young newlywed couple honeymoon in Europe, where obstacles challenge their ability to sustain the marriage."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-25_02-07-57 (1).jpg",
+        "title": "She's Out of My League",
+        "rating": "6.4",
+        "genre": "Comedy,  Romance,",
+        "release": "2010",
+        "duration": "104",
+        "language": "English,",
+        "description": "An average Joe meets the perfect woman, but his lack of confidence and the influence of his friends and family begin to pick away at the relationship."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-23_21-28-25 (1).jpg",
+        "title": "Pride & Prejudice",
+        "rating": "7.8",
+        "genre": "Drama,  Romance,",
+        "release": "2005",
+        "duration": "129",
+        "language": "English",
+        "description": "Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class. Can each overcome their own pride and prejudice?"
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-23_18-00-49 (1).jpg",
+        "title": "Passengers",
+        "rating": "7.0",
+        "genre": "Drama,  Romance,  Sci-Fi,  Thriller,",
+        "release": "2016",
+        "duration": "116",
+        "language": "English",
+        "description": "A malfunction in a sleeping pod on a spacecraft traveling to a distant colony planet wakes one passenger 90 years early."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-23_16-06-41 (1).jpg",
+        "title": "The Ugly Truth",
+        "rating": "6.4",
+        "genre": "Comedy,  Romance,",
+        "release": "2009",
+        "duration": "96",
+        "language": "English",
+        "description": "An uptight television producer takes control of a morning show segment on modern relationships hosted by a misogynistic man."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-22_16-40-11 (1).jpg",
+        "title": "Me Before You",
+        "rating": "7.4",
+        "genre": "Drama,  Romance,",
+        "release": "2016",
+        "duration": "110",
+        "language": "English,  French,",
+        "description": "A girl in a small town forms an unlikely bond with a recently-paralyzed man she's taking care of."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-21_23-57-22 (1).jpg",
+        "title": "Purple Hearts",
+        "rating": "6.7",
+        "genre": "Drama,  Music,  Romance,",
+        "release": "2022",
+        "duration": "122",
+        "language": "English,  Spanish,",
+        "description": "In spite of their many differences, Cassie, a struggling singer-songwriter, and Luke, a troubled Marine, agree to marry solely for military benefits, but when tragedy strikes, the line between real and pretend begins to blur."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-21_23-13-38 (1).jpg",
+        "title": "Just Like Heaven",
+        "rating": "6.7",
+        "genre": "Comedy,  Drama,  Fantasy,  Romance,",
+        "release": "2005",
+        "duration": "95",
+        "language": "English,",
+        "description": "A lonely landscape architect falls for the spirit of the beautiful woman who used to live in his new apartment."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-21_20-26-30 (1).jpg",
+        "title": "Letters to Juliet",
+        "rating": "6.5",
+        "genre": "Adventure,  Comedy,  Drama,  Romance,",
+        "release": "2010",
+        "duration": "105",
+        "language": "English,",
+        "description": "Sophie dreams of becoming a writer and travels to Verona, Italy where she meets the \"Secretaries of Juliet\"."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-21_18-13-36 (1).jpg",
+        "title": "Titanic",
+        "rating": "7.9",
+        "genre": "Drama,  Romance,",
+        "release": "1997",
+        "duration": "194",
+        "language": "English,  Swedish,  Italian,  French,",
+        "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-20_15-21-09 (1).jpg",
+        "title": "The Fault in Our Stars",
+        "rating": "7.7",
+        "genre": "Drama,  Romance,",
+        "release": "2014",
+        "duration": "126",
+        "language": "English",
+        "description": "Two teenage cancer patients begin a life-affirming journey to visit a reclusive author in Amsterdam."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-19_16-25-26 (1).jpg",
+        "title": "The Last Song",
+        "rating": "6.0",
+        "genre": "Drama,  Music,  Romance,",
+        "release": "2010",
+        "duration": "108",
+        "language": "English",
+        "description": "A rebellious girl is sent to a Southern beach town for the summer to stay with her father. Through their mutual love of music, the estranged duo learn to reconnect."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-18_16-43-21 (1).jpg",
+        "title": "Safe Haven",
+        "rating": "6.6",
+        "genre": "Drama,  Romance,  Thriller,",
+        "release": "2013",
+        "duration": "115",
+        "language": "English,",
+        "description": "A young woman with a mysterious past lands in Southport, North Carolina where her bond with a widower forces her to confront the dark secret that haunts her."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-18_16-27-17 (1).jpg",
+        "title": "Five Feet Apart",
+        "rating": "7.2",
+        "genre": "Drama,  Romance,",
+        "release": "2019",
+        "duration": "116",
+        "language": "English,",
+        "description": "A pair of teenagers with cystic fibrosis meet in a hospital and fall in love, though their disease means they must avoid close physical contact."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-17_20-06-19 (1).jpg",
+        "title": "The Choice",
+        "rating": "6.5",
+        "genre": "Drama,  Romance,",
+        "release": "2016",
+        "duration": "111",
+        "language": "English",
+        "description": "Travis and Gabby first meet as neighbors in a small coastal town and wind up in a relationship that is tested by life's most defining events."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-17_02-29-24 (1).jpg",
+        "title": "Every Day",
+        "rating": "6.4",
+        "genre": "Drama,  Fantasy,  Romance,",
+        "release": "2018",
+        "duration": "97",
+        "language": "English",
+        "description": "A shy teenager falls for a spirit who wakes up in the body of a different person every morning."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-16_20-54-52 (1).jpg",
+        "title": "Everything, Everything",
+        "rating": "6.3",
+        "genre": "Drama,  Romance,",
+        "release": "2017",
+        "duration": "96",
+        "language": "English,  Spanish,",
+        "description": "A teenager who's spent her whole life confined to her home falls for the boy next door."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-16_20-52-11 (1).jpg",
+        "title": "One Day",
+        "rating": "7.0",
+        "genre": "Drama,  Romance,",
+        "release": "2011",
+        "duration": "107",
+        "language": "English",
+        "description": "After spending the night together on the eve of their college graduation, Dexter and Emma are shown each year on the same date to see where they are in their lives. They are sometimes together, and sometimes not."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-16_20-40-28 (1).jpg",
+        "title": "The Notebook",
+        "rating": "7.8",
+        "genre": "Drama,  Romance,",
+        "release": "2004",
+        "duration": "123",
+        "language": "English",
+        "description": "An elderly man reads to a woman with dementia the story of two young lovers whose romance is threatened by the difference in their respective social classes."
+    },
+    {
+        "cover": "movie_posters\\photo_2024-03-16_00-57-54 (1).jpg",
+        "title": "A Walk to Remember",
+        "rating": "7.3",
+        "genre": "Drama,  Romance,",
+        "release": "2002",
+        "duration": "101",
+        "language": "English",
+        "description": "Two North Carolina teens, Landon Carter and Jamie Sullivan, are thrown together after Landon gets into trouble and is sentenced to perform community service."
+    }
+]
